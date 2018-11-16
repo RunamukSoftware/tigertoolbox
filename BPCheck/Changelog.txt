@@ -334,4 +334,20 @@ v2.1.8 - 6/9/2017 - Extended Deprecated and Discontinued features subsection wit
 			Added resilience for SQL Injection;
 			Fixed invalid object name error in SQL Server 2005.
 v2.1.8.1 - 6/11/2017 - Added information about query optimizer changes usage at DB level;
-			Extended Deprecated and Discontinued features subsection with info from SQL Agent jobs.
+					Extended Deprecated and Discontinued features subsection with info from SQL Agent jobs.
+v2.1.8.2 - 8/23/2017 - Extended search for feature usage in DBs - better determine DB readiness to be moved across editions.
+v2.1.8.3 - 9/7/2017 - Changed Enterprise_Feature_usage to Feature usage all-up;
+						Extended wait type categorization.
+v2.2 - 10/17/2017 - Added support for SQL Server on Linux.
+v2.2.1 - 10/19/2017 - Corrected several issues with support for SQL 2017 (thanks Mark Freeman).
+v2.2.2 - 10/26/2017 - Corrected auto soft NUMA reporting wrong status (thanks Bjoern Steinmetz);
+						Fixed Feature usage subsection when running on SQL 2014 or below;
+						Fixed CPU Affinity bit mask.
+v2.2.2.1 - 1/11/2018 - Fixed issues with unicode characters (thanks Brent Ozar);
+						Fixed max server memory calculations;
+						Added check for Database Health Detection in Server_checks section (thanks Anders Uhl Pedersen).
+v2.2.3 - 10/27/2018 - Fixed performance checks duplicate results issue on SQL 2016+. 
+v2.2.3.1 - 10/28/2018 - Fixed variable issue.
+v2.2.3.2 - 10/28/2018 - Enhanced power scheme check (thanks sivey42).
+v2.2.3.4 - 10/29/2018 - Fixed latches syntax error (thanks Dimitri Artemov);
+						Improved handling of conversions.
